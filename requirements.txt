@@ -1,0 +1,32 @@
+# Chain-of-Thought Research - Consolidated Dependencies
+# Python 3.7+ required
+
+# Core Scientific Computing
+numpy>=1.19.0
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Deep Learning (for Project 2: Logit Lens)
+torch>=1.9.0
+transformers>=4.10.0
+
+# Optional: For Real API Testing (Project 1)
+# openai>=0.27.0
+
+# Development Tools (optional)
+# jupyter>=1.0.0
+# ipython>=7.0.0
+
+# Notes:
+# - All projects work in "mock mode" without API keys
+# - Project 1: Only requires matplotlib, numpy (openai optional)
+# - Project 2: Requires torch, transformers (downloads GPT-2 ~500MB first run)
+# - Project 3: Only requires matplotlib, numpy
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# For minimal installation (Projects 1 & 3 only):
+#   pip install matplotlib numpy
